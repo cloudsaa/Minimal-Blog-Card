@@ -1,0 +1,124 @@
+.pt-serif-regular {
+  font-family: "PT Serif", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.dm-serif-text-regular {
+  font-family: "DM Serif Text", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+
+.sora> {
+  font-family: "Sora", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 164px;
+}
+
+.container{
+    border-radius: 20px;
+    box-shadow: 8px 8px 20px 0px rgba(85, 85, 85, 0.08);
+
+}
+
+.sec1{
+    margin-top: 16px;
+    margin-left: 16px;
+    margin-right: 16px;
+    background-color: white;
+    margin-bottom: 10px solid #ccc;
+
+}
+
+.sec1 img{
+    height: 152px;
+    width: 336px;
+    border-radius: 10px;
+
+}
+
+.sec1 h5{
+    font-family: 'Sora', 'PT Serif', serif;
+    font-weight: 700;
+    color: #7C19EE;
+    font-size: 10px;
+}
+
+#dtext{
+    margin-top: 16px;
+    display: block;
+    width: 60px;
+    padding: 5px;
+    border-radius: 40px;
+    background-color: #F2EAFD;
+    text-align: center;
+}
+
+.mtext{
+    font-family:  'Sora', 'PT Serif', serif;
+    margin-left: 16px;
+    margin-right: 16px;
+}
+
+.mtext h2{
+    margin-top: 16px;
+    font-weight: 700;
+    font-size: 18px;
+    color: #20293A;
+    height: 10px;
+    weight: 300px;
+}
+
+.mtext h4{
+    margin-bottom: 20px;
+    width: 300px;
+    font-weight: 400;            
+    white-space: normal;      
+    word-wrap: break-word; 
+    color: #394150;
+    font-size: 13px;
+}
+
+.divider {
+  height: 2px;
+  background-color: #E5EAF0;
+  width: 100%;
+}
+
+footer{
+    margin-top: 10px;
+    margin-bottom: 20px;
+    color: #394150;
+    margin-left: 16px;
+    font-family:  'Sora', 'PT Serif', serif;
+    font-weight: 400;
+    font-size: smaller;
+}
+
+.author-info {
+    font-size: 14px;
+    text-align: center;
+    margin-top: 16px;
+    color: rgb(55, 65, 81);
+}
+
+.author-info a {
+    text-decoration: none;
+}
