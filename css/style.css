@@ -29,7 +29,8 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-top: 200px;
+    margin-top: 300px;
+    background-color: #FAFAF9;
 }
 
 .container{
